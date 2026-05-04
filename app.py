@@ -11,7 +11,7 @@ st.set_page_config(layout="wide", page_title="中国产业地图可视化系统"
 # ===== 缓存数据加载 =====
 # 把 load_basemap() 函数替换成下面这个：
 
-@st.cache_data
+@st.cache_resource
 def load_basemap():
     province = gpd.read_file("中国地图省.shp").to_crs(epsg=4326)
     nine_line = gpd.read_file("中国九段线.shp").to_crs(epsg=4326)
@@ -20,18 +20,22 @@ def load_basemap():
     suzhou = gpd.read_file("苏州市.shp", encoding='utf-8').to_crs(epsg=4326)
     return province, nine_line, beijing, shenzhen, suzhou
 
-@st.cache_data
+@st.cache_resource
 def load_excel():
     return pd.read_excel("第四问python交互数据.xlsx")
 
-@st.cache_data
+@st.cache_resource
 def load_shp_safe(filepath):
+    geojson_path = filepath.replace('.shp', '.geojson')
+    if os.path.exists(geojson_path):
+        try:
+            return gpd.read_file(geojson_path)
+        except:
+            return None
+    # 兼容一下旧shp文件
     if os.path.exists(filepath):
         try:
-            gdf = gpd.read_file(filepath)
-            if gdf.crs is not None and str(gdf.crs).upper() != 'EPSG:4326':
-                gdf = gdf.to_crs(epsg=4326)
-            return gdf
+            return gpd.read_file(filepath)
         except:
             return None
     return None
