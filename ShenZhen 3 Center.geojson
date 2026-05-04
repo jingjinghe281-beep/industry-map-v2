@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "ShenZhen 3 Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32649" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "CenterX": 809277.56577900006, "CenterY": 2501683.3923599999, "XStdDist": 17802.114969800001, "YStdDist": 11575.036035200001, "Rotation": 78.325911406000003, "CENTROID_X": 809277.56582899997, "CENTROID_Y": 2501683.3924099999, "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ 809277.565829241531901, 2501683.392411583568901 ] } }
+]
+}

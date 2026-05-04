@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "ShenZhen 4 Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32649" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "CenterX": 811738.22780999995, "CenterY": 2504741.3164900001, "XStdDist": 19336.324426499999, "YStdDist": 11936.1907355, "Rotation": 82.246887232899994, "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ 811738.22786228323821, 2504741.316542110405862 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "BeiJing 3 Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32650" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "CenterX": 448852.21667200001, "CenterY": 4422334.6678999998, "XStdDist": 23260.913887300001, "YStdDist": 18487.845728799999, "Rotation": 47.130094375900001, "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ 448852.216719928313978, 4422334.667949806898832 ] } }
+]
+}

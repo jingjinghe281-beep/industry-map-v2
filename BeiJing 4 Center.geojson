@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "BeiJing 4 Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32650" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "CenterX": 452519.04980199999, "CenterY": 4422713.2657399997, "XStdDist": 18933.150016200001, "YStdDist": 27069.7847354, "Rotation": 38.280409431599999, "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ 452519.049851323361509, 4422713.26578857563436 ] } }
+]
+}

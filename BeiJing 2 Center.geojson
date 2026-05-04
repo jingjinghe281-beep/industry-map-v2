@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "BeiJing 2 Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32650" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "CenterX": 450016.97164, "CenterY": 4422694.7064500004, "XStdDist": 20859.004289799999, "YStdDist": 32890.341020799999, "Rotation": 44.596630702799999, "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ 450016.971692425257061, 4422694.706513962708414 ] } }
+]
+}

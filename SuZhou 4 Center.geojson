@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "SuZhou 4 Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32650" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "CenterX": 853739.84826300002, "CenterY": 3473728.4268899998, "XStdDist": 22793.577671899999, "YStdDist": 29057.6278384, "Rotation": 16.937121464400001, "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ 853739.848311859183013, 3473728.426953483372927 ] } }
+]
+}

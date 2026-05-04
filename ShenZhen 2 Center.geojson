@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "ShenZhen 2 Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32649" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "CenterX": 809432.95237800002, "CenterY": 2509049.7682599998, "XStdDist": 23605.035002600001, "YStdDist": 12903.2370364, "Rotation": 88.961349652199999, "CENTROID_X": 809432.95241799997, "CENTROID_Y": 2509049.7683000001, "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ 809432.952417781343684, 2509049.768300693947822 ] } }
+]
+}
